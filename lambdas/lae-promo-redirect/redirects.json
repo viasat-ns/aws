@@ -1,0 +1,4 @@
+[
+{ "regex": "^\/internexperience\/?$", "to": "https://viasat.widencollective.com/portals/ofwlwc8v/InternexperienceatViasat", "comment": "Lisa White 20210414" },
+ { "regex": "promo.viasat.com\/?$", "to": "/home-internet/offers/save-150/"}
+] 
