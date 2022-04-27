@@ -2712,6 +2712,6 @@
   { "regex": "^/(techforgood|tech-for-good)/?$", "to": "https://www.viasat.com/about/what-we-believe/corporate-giving/tech-for-good/", "comment": "Nithya WEBCON-4156 20220419" },
   { "regex": "^/viasat-engage-terms/?$", "to": "https://viasat.widencollective.com/portals/qq6gges0/ViasatEngageTerms", "comment": "Jason WEBCON-4016 20220304" },
   { "regex": "^/viasat-engage-sponsored-access-terms/?$", "to": "https://viasat.widen.net/s/kgqgtw6xkn/sponsored_access_standard_terms_and_conditions_effective_2-25-22", "comment": "Ashley WEBCON-4066 20220325" },
-  
+  { "regex": "^/streamon/?$", "to": "https://www.viasat.com/satellite-internet/additional-services/streamon/", "comment": "Ashley WEBCON-4223 20220427" },
   { "regex": "^/en-mx", "to": "/es-mx/", "comment": "WEBCON-3081 20210908" }
 ]     
