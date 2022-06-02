@@ -939,6 +939,7 @@
   { "regex": "^/(D|d)(A|a)(R|r)(C|c)/\/?", "to": "https://www.viasat.com/products/cybersecurity/data-at-rest-encryption/", "comment": "Nithya WEBCON-3990 20220222" },
   { "regex": "^/iot$", "to": "/business-and-commercial/enterprise/mobile-satellite-terminals/", "comment": "Jason WEBCON-12345 20220218" },
   { "regex": "^/iot$", "to": "/business-and-commercial/enterprise/mobile-satellite-terminals/", "comment": "Jason WEBCON-12345 20220218" },
+  { "regex": "^/tech-for-good/?$", "to": "https://www.viasat.com/about/what-we-believe/corporate-giving/tech-for-good/", "comment": "Ashley WEBCON-4340 20220602" },
   { "regex": "^/mx/?$", "to": "/es-mx/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/br/?$", "to": "/pt-br/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/qa/?$", "to": "/en-qa/", "comment": "Adam WEBCON-4264 20220503" },
