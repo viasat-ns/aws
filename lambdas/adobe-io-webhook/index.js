@@ -38,7 +38,7 @@ exports.handler = async (event, context, callback) => {
         } catch (error) {
             console.error(`adobe-io POST error: ${error}`);
 
-            const response = { status: 403, body: `lambdaVersion: ${process.env.APP_VERSION} - Not Authorized` };
+            const response = { status: 503, body: `lambdaVersion: ${process.env.APP_VERSION} - Not Authorized` };
             return callback(null, response);
         }
     }
@@ -64,7 +64,7 @@ exports.handler = async (event, context, callback) => {
     }
 
     // return a default response if not handled above
-    const response = { status: 503, body: `lambdaVersion: ${process.env.APP_VERSION} - Default Response Handler` };
+    const response = { status: 503, body: `lambdaVersion: ${process.env.APP_VERSION} - Not Supported` };
 
     return callback(null, response);
 };
