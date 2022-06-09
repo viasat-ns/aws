@@ -8,7 +8,7 @@ const { URLSearchParams, URL } = require('url')
 
 require('dotenv').config()
 
-// #################################### functions for Adobe Events ####################################
+// #################################### functions for Getting Data from Adobe IO ####################################
 
 async function getAccessToken () {
   const EXPIRATION = 60 * 60 // 1 hour
