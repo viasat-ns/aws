@@ -1,0 +1,6 @@
+.env
+.vscode
+node_modules
+.data/
+/lambdaFunc.zip
+/package-lock.json

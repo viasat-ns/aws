@@ -1,0 +1,22 @@
+{
+  "name": "adobe-io-webhook",
+  "version": "1.0.0",
+  "description": "Application to handle adobe io events",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@adobe/aio-lib-events": "^1.1.5",
+    "@adobe/jwt-auth": "^1.0.1",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-import": "^0.13.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
