@@ -942,6 +942,7 @@
   { "regex": "^/tech-for-good/?$", "to": "/about/what-we-believe/corporate-giving/tech-for-good/", "comment": "Ashley WEBCON-4340 20220602" },
   { "regex": "^/homeinternet/?$", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_1982_9N016L1FFX", "comment": "Ashley WEBCON-4364 20220603" },
   { "regex": "^/extra30/?$", "to": "/satellite-internet/affordable-connectivity-program/new-customer/?cid=TVN_US_1983_QIN59X2NTV", "comment": "Ashley WEBCON-4375 20220608" },
+  { "regex": "^/VAST/?$", "to": "/space-innovation/space-and-networking-technology/mobile-antennas/aviation/", "comment": "Ashley WEBCON-4401 20220614" },
   { "regex": "^/mx/?$", "to": "/es-mx/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/br/?$", "to": "/pt-br/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/qa/?$", "to": "/en-qa/", "comment": "Adam WEBCON-4264 20220503" },
