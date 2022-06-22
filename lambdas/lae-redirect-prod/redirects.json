@@ -2719,6 +2719,7 @@
   { "regex": "^/homeinternet/?$", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_1982_9N016L1FFX", "comment": "Ashley WEBCON-4364 20220603" },
   { "regex": "^/extra30/?$", "to": "/satellite-internet/affordable-connectivity-program/new-customer/?cid=TVN_US_1983_QIN59X2NTV", "comment": "Ashley WEBCON-4375 20220608" },
   { "regex": "^/(V|v)(A|a)(S|s)(T|t)/?$", "to": "/space-innovation/space-and-networking-technology/mobile-antennas/aviation/", "comment": "Ashley WEBCON-4401 20220615" },
+  { "regex": "^/save30/?$", "to": "/satellite-internet/affordable-connectivity-program/new-customer/?cid=%20DML_US_2004_660LUKNOK2", "comment": "Ashley WEBCON-4410 20220622" },
   { "regex": "^/mx/?$", "to": "/es-mx/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/br/?$", "to": "/pt-br/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "^/qa/?$", "to": "/en-qa/", "comment": "Adam WEBCON-4264 20220503" },
