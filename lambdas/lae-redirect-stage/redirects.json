@@ -2687,7 +2687,7 @@
   { "regex": "/files/assets/web/datasheets/FEC_IPCores_111.pdf", "to": "/enterprise-and-mobility/space-and-networking-technology/asics-and-ip-cores/", "comment": "WEBCON-3242 404 redirects - after Hela deploy" },
   { "regex": "/files/web/uploads/DOCCTS_TS-4528_datasheet_005.pdf", "to": "/content/dam/us-site/government/documents/860959_DOCCTS_TS-4528_datasheet_021_web.pdf", "comment": "WEBCON-3242 404 redirects - after Hela deploy" },
   { "regex": "/sites/default/files/media/documents/airborne_mobile_broadband_brochure_026_web.pdf", "to": "/products/terminals-and-radios/ku-band-terminals/", "comment": "WEBCON-3242 404 redirects - after Hela deploy" },
-  { "regex": "/sites/default/files/media/satellite_fleet_map_2_19_19.pdf", "to": "https://www.viasat.com", "comment": "WEBCON-3242 404 redirects - after Hela deploy" },
+  { "regex": "/sites/default/files/media/satellite_fleet_map_2_19_19.pdf", "to": "/", "comment": "WEBCON-3242 404 redirects - after Hela deploy" },
   { "regex": "/us-army", "to": "https://go.viasat.com/us-army?cid=PRT_US_347_2YO52KAQ7M", "comment": "Ashley WEBCON-3387 20211019" },
   { "regex": "/iot", "to": "/enterprise-and-mobility/enterprise/mobile-satellite-terminals/", "comment": "Ashley WEBCON-3405 20211019" },
   { "regex": "/fixedwireless", "to": "/satellite-internet/additional-services/fixed-wireless", "comment": "Ashley WEBCON-3457 20211104" },
