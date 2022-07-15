@@ -1,0 +1,44 @@
+Redirect errors
+
+Fixed [36] https://stage.web.viasat.com/news TARGET, expeceted [/about/newsroom/press-releases/] actual is [/about/newsroom/]
+
+NOT FOUND in AEM [94] https://stage.web.viasat.com/news/accelenet®-software-based-wan-optimizer-breaks-more-new-ground TARGET, expeceted [/about/newsroom/press-releases/accelenet(R)-software-based-wan-optimizer-breaks-more-new-ground/] actual is [/about/newsroom/press-releases/accelenet�-software-based-wan-optimizer-breaks-more-new-ground/]
+NOT FOUND in AEM [95] https://stage.web.viasat.com/news/accelenet®-wan-optimization-client-selected-finalist-most-innovative-enterprise-software TARGET, expeceted [/about/newsroom/press-releases/accelenet(R)-wan-optimization-client-selected-finalist-most-innovative-enterprise-software/] actual is [/about/newsroom/press-releases/accelenet�-wan-optimization-client-selected-finalist-most-innovative-enterprise-software/]
+Fixed [354] https://stage.web.viasat.com/news/viasat’s-flight-connectivity-system-selected-power-jetblue’s-fly-fi®-internet-service-across TARGET, expeceted [/about/newsroom/press-releases/viasat's-flight-connectivity-system-selected-power-jetblue's-fly-fi(R)-internet-service-across/] actual is [/about/newsroom/press-releases/viasat's-flight-connectivity-system-selected-power-jetblue's-fly-fi�-internet-service-across/]
+Fixed [483] https://stage.web.viasat.com/news/viasat-completes-brazilian-residential-internet-service-roll-out—now-covers-100-country-offers TARGET, expeceted [/about/newsroom/press-releases/viasat-completes-brazilian-residential-internet-service-roll-out-now-covers-100-country-offers/] actual is [/about/newsroom/press-releases/viasat-completes-brazilian-residential-internet-service-roll-out--now-covers-100-country-offers/]
+Fixed [542] https://stage.web.viasat.com/news/viasat-joins-uc-san-diegos-halicioğlu-data-science-institute-founding-industry-partner TARGET, expeceted [/about/newsroom/press-releases/viasat-joins-uc-san-diegos-halicioglu-data-science-institute-founding-industry-partner/] actual is [/about/newsroom/press-releases/viasat-joins-uc-san-diegos-halicio?lu-data-science-institute-founding-industry-partner/]
+Fixed [544] https://stage.web.viasat.com/news/viasat-launches-community-wi-fi-trial-state-são-paulo TARGET, expeceted [/about/newsroom/press-releases/viasat-launches-community-wi-fi-trial-state-s~ao-paulo/] actual is [/about/newsroom/press-releases/viasat-launches-community-wi-fi-trial-state-s�o-paulo/]
+Fixed [566] https://stage.web.viasat.com/news/viasat-offers-highest-speed-connectivity-package-bombardier-global-aircraft—made-available TARGET, expeceted [/about/newsroom/press-releases/viasat-offers-highest-speed-connectivity-package-bombardier-global-aircraft-made-available/] actual is [/about/newsroom/press-releases/viasat-offers-highest-speed-connectivity-package-bombardier-global-aircraft--made-available/]
+Fixed [570] https://stage.web.viasat.com/news/viasat-opens-offices-são-paulo-and-brasilia-brazil TARGET, expeceted [/about/newsroom/press-releases/viasat-opens-offices-sao-paulo-and-brasilia-brazil/] actual is [/about/newsroom/press-releases/viasat-opens-offices-s�o-paulo-and-brasilia-brazil/]
+
+[915] https://stage.web.viasat.com/cisa-letter TARGET, expeceted [/content/dam/us-site/corporate/documents/CISA%20Disaster%20Access%20Letter%20-%2020%20May%202020_DIR%20Signed.pdf] actual is [/content/dam/us-site/corporate/documents/CISA Disaster Access Letter - 20 May 2020_DIR Signed.pdf]
+
+Fixed [1052] https://stage.web.viasat.com/vdlwg-2021 TARGET, expeceted [/] actual is [https://viasatdatalinksworkinggroup.splashthat.com/]
+Fixed [1206] https://stage.web.viasat.com/link-16 TARGET, expeceted [/defense/tactical-data-links/link-16/] actual is [/defense/tactical-data-links/]
+Fixed [1254] https://stage.web.viasat.com/government-communications/information-assurance TARGET, expeceted [/defense/] actual is [/defense/cybersecurity-data-protection/]
+Fixed [1267] https://stage.web.viasat.com/government-communications/comm-move TARGET, expeceted [/defense/] actual is [/defense/satcom/]
+Fixed [1293] https://stage.web.viasat.com/gov-uk TARGET, expeceted [/defense/ ] actual is [https://go.viasat.com/gs-fiveeyes-uk.html?utm_source=BATTLESPACE&utm_medium=Display&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=Whats_Next]
+Fixed [1474] https://stage.web.viasat.com/node/4204 TARGET, expeceted [https://help.viasat.com/] actual is [http://help.viasat.com/]
+
+[1632] https://stage.web.viasat.com/sites/default/files/media/documents/data-allowance-policy-wb.pdf STATUS_CODE, expeceted [301] actual is [403]
+[1633] https://stage.web.viasat.com/sites/default/files/legacy/Yonder_Brochure_012_Web.pdf STATUS_CODE, expeceted [301] actual is [403]
+[1634] https://stage.web.viasat.com/sites/default/files/legacy/web/datasheets/KG-250X_datasheet_045_web.pdf STATUS_CODE, expeceted [301] actual is [403]
+[1635] https://stage.web.viasat.com/sites/default/files/legacy/web/datasheets/gsa_viasat_satellite_services_pricelist_april_2013.pdf STATUS_CODE, expeceted [301] actual is [403]
+[1636] https://stage.web.viasat.com/files/assets/Information%20Security/Crypto_Pricelist_1051049_4-27-07_Direct.pdf STATUS_CODE, expeceted [301] actual is [403]
+[1979] https://stage.web.viasat.com/favicon.ico STATUS_CODE, expeceted [301] actual is [403]
+[2046] https://stage.web.viasat.com/sites/default/files/media/documents/secure_communications_anywhere_anytime_ww_014_web.pdf STATUS_CODE, expeceted [301] actual is [403]
+
+Fixed [2041] https://stage.web.viasat.com/security-partner TARGET, expeceted [/customer-service/defense/] actual is [/defense/cybersecurity/]
+Fixed [2642] https://stage.web.viasat.com/satcom-adm TARGET, expeceted [/defense/satcom/] actual is [/defense/]
+Fixed [2643] https://stage.web.viasat.com/infosec TARGET, expeceted [/defense/cybersecurity-data-protection/] actual is [/defense/]
+
+[2648] https://stage.web.viasat.com/files/assets/web/datasheets/bft2_datasheet_029_web.pdf STATUS_CODE, expeceted [301] actual is [403]
+[2687] https://stage.web.viasat.com/files/assets/web/datasheets/FEC_IPCores_111.pdf STATUS_CODE, expeceted [301] actual is [403]
+[2688] https://stage.web.viasat.com/files/web/uploads/DOCCTS_TS-4528_datasheet_005.pdf STATUS_CODE, expeceted [301] actual is [403]
+[2689] https://stage.web.viasat.com/sites/default/files/media/documents/airborne_mobile_broadband_brochure_026_web.pdf STATUS_CODE, expeceted [301] actual is [403]
+[2690] https://stage.web.viasat.com/sites/default/files/media/satellite_fleet_map_2_19_19.pdf STATUS_CODE, expeceted [301] actual is [403]
+[2700] https://stage.web.viasat.com/lp STATUS_CODE, expeceted [301] actual is [502]
+
+Fixed [2718] https://stage.web.viasat.com/save30 TARGET, expeceted [/satellite-internet/affordable-connectivity-program/new-customer/?cid=DML_US_2004_660LUKNOK2] actual is [/satellite-internet/affordable-connectivity-program/new-customer/?cid= DML_US_2004_660LUKNOK2]
+
+Test Results: Lines [2727] Tests [2708] Success [2675] and Errors [33]
