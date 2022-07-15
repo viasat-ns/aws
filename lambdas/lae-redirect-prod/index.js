@@ -118,7 +118,8 @@ exports.handler = (event, context, callback) => {
     var startTime = performance.now();
 
     for (let redirect of redirects) {
-        if( url.search( (redirect.regex) ) >= 0 ) {
+        var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
+        if( url.search( regexpObj ) >= 0 ) {
 
             var endTime = performance.now();
 

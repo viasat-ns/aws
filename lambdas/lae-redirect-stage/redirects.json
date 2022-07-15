@@ -2723,5 +2723,6 @@
   { "regex": "/br", "to": "/pt-br/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "/qa", "to": "/en-qa/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "/es", "to": "/es-es/", "comment": "Adam WEBCON-4264 20220503" },
-  { "regex": "/en-mx", "to": "/es-mx/", "comment": "WEBCON-3081 20210908" }
+  { "regex": "/en-mx", "to": "/es-mx/", "comment": "WEBCON-3081 20210908" },
+  { "regex": "/choice", "to": "/satellite-internet/?cid=RAD_US_2009_8B2CWJDNW3", "comment": "Adam WEBCON-4193 20220714" }
 ]     
