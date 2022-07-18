@@ -7,15 +7,15 @@ exports.handler = (event, context, callback) => {
     //get request object
     const { request } = event.Records[0].cf;
     var url = request.uri;
-    
+
     console.log("URL (11): " + url);
-    
+
     //check for empth path
     if( url  === "") {
         console.log( "Callback (15): " + url);
         return callback(null, request);
     }
-    
+
     console.log("URL (19): " + url);
 
 
@@ -24,18 +24,18 @@ exports.handler = (event, context, callback) => {
         console.log( "Callback (24): " + url);
         return callback(null, request);
     }
-    
+
     console.log("URL (28): " + url);
 
     var hostname = null;
-    
+
     if( request.headers.host && request.headers.host[0] ) {
         hostname = request.headers.host[0].value;
     }
-    
+
     console.log("URL (36): " + url);
 
-    
+
     if( hostname == "energy-stage.web.viasat.com" ) {
         const redirect_cb = {
             status: '301',
@@ -78,14 +78,14 @@ exports.handler = (event, context, callback) => {
 
     //we need to determine if this request has an extension.
     const extension = path.extname(url);
-    
+
     console.log("URL (60): " + url);
 
     // Remove /.html if added by AEM Ticket: WEBCON-3983
     if( url.endsWith( "/.html" ) ){
         url = url.replace( "/.html", "/" );
         request.uri = url;
-        
+
         const redirect_ns = {
             status: '301',
             statusDescription: 'Moved Permanently',
@@ -100,21 +100,21 @@ exports.handler = (event, context, callback) => {
                 }]
             },
         };
-        
+
         console.log( "301 (82): " + url );
-        return callback(null, redirect_ns); 
-        
+        return callback(null, redirect_ns);
+
     }
-    
+
     console.log("URL (87): " + url);
 
     //path.extname returns an empty string when there's no extension.
     //if there is an extension on this request, continue without doing anything!
-    if(extension && extension.length > 0){
+    if(extension && extension.length > 0 && (extension != '.pdf' && extension != '.ico')){
         console.log( "Callback (92): " + url);
         return callback(null, request);
     }
-    
+
     console.log("URL (96): " + url);
 
     //check for redirect definition
@@ -122,26 +122,33 @@ exports.handler = (event, context, callback) => {
 
     for (let redirect of redirects) {
         var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
-        if( url.search( regexpObj ) >= 0 ) {
+        url = url.replace( "/.\\" + extension, "" );
+        var urlCheck = url.search(regexpObj) >= 0;
+        var extCheck = true;
+        if(redirect.ext && redirect.ext.length > 0 && extension != ("." + redirect.ext)) {
+            extCheck = false;
+        }
+        if (urlCheck && extCheck) {
 
-            var endTime = performance.now();
+                var endTime = performance.now();
 
-            const redirect_cb = {
-                status: '301',
-                statusDescription: 'Moved Permanently',
-                headers: {
-                    "x-viasat-fwd": [{
-                        key: 'X-Viasat-FWD',
-                        value: "redirect-lookup",
-                    }],
-                    location: [{
-                        key: 'Location',
-                        value: redirect.to,
-                    }],
-                },
-            };
-            console.log( "301 (120): " + url);
-            return callback(null, redirect_cb);
+                const redirect_cb = {
+                    status: '301',
+                    statusDescription: 'Moved Permanently',
+                    headers: {
+                        "x-viasat-fwd": [{
+                            key: 'X-Viasat-FWD',
+                            value: "redirect-lookup",
+                        }],
+                        location: [{
+                            key: 'Location',
+                            value: redirect.to,
+                        }],
+                    },
+                };
+                console.log("301 (120): " + url);
+                return callback(null, redirect_cb);
+            }
         }
     }
     var endTime = performance.now();
@@ -149,7 +156,7 @@ exports.handler = (event, context, callback) => {
 
     //let's check if the last character is a slash.
     const last_character = url.slice(-1);
-    
+
     console.log("URL (130): " + url);
 
     //if there is already a trailing slash, return.
@@ -162,7 +169,7 @@ exports.handler = (event, context, callback) => {
 
     //add a trailing slash.    
     var new_url = `${url}/`;
-    
+
     console.log("URL (143): " + url);
     console.log("New URL (144): " + new_url);
 
@@ -172,7 +179,7 @@ exports.handler = (event, context, callback) => {
     if(qs && qs.length > 0){
         new_url += `?${qs}`;
     }
-    
+
     console.log("URL (153): " + url);
     console.log("New URL (154): " + new_url);
 
@@ -193,6 +200,6 @@ exports.handler = (event, context, callback) => {
     };
     console.log("URL (171): " + url);
     console.log("New URL (1): " + new_url);
-    
+
     return callback(null, redirect);
 };

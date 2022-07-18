@@ -8,9 +8,7 @@ helpFunction()
    exit 1 # Exit script after printing help
 }
 
-function urldecode() {
-  python -c 'import urllib, sys; print urllib.unquote(sys.argv[1])' "$1"
-}
+
 
 urlencode() {
   python -c 'import urllib, sys; print urllib.quote(sys.argv[1], sys.argv[2])' \
@@ -100,7 +98,7 @@ do
 
   if [[ $redirect_url =~ $targetHostName(.*) ]]; then
     location="${BASH_REMATCH[1]}"
-    location=$(urldecode "$location")
+
   else
     location="$redirect_url"
   fi  

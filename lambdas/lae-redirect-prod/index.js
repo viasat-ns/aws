@@ -102,16 +102,16 @@ exports.handler = (event, context, callback) => {
         return callback(null, redirect_ns); 
         
     }
-    
+
     console.log("URL (87): " + url);
 
     //path.extname returns an empty string when there's no extension.
     //if there is an extension on this request, continue without doing anything!
-    if(extension && extension.length > 0){
+    if(extension && extension.length > 0 && (extension != '.pdf' && extension != '.ico')){
         console.log( "Callback (92): " + url);
         return callback(null, request);
     }
-    
+
     console.log("URL (96): " + url);
 
     //check for redirect definition
@@ -119,7 +119,13 @@ exports.handler = (event, context, callback) => {
 
     for (let redirect of redirects) {
         var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
-        if( url.search( regexpObj ) >= 0 ) {
+        url = url.replace( "/.\\" + extension, "" );
+        var urlCheck = url.search(regexpObj) >= 0;
+        var extCheck = true;
+        if(redirect.ext && redirect.ext.length > 0 && extension != ("." + redirect.ext)) {
+            extCheck = false;
+        }
+        if (urlCheck && extCheck) {
 
             var endTime = performance.now();
 
