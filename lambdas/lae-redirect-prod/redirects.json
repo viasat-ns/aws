@@ -73,7 +73,7 @@
   { "regex": "/topic/networking-tactical-radios-data-controllers", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
   { "regex": "/topic/uhf-satcom", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
   { "regex": "/topic/wi-fi-hotspot-management", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
-  { "regex": "/about/newsroom/press-releases/11-million-orders-for-joint-ip-modem-products-and-upgrades", "to": "/about/newsroom/press-releases/11-million-orders-for-joint-ip-modem-products-and-upgrades/", "comment": "initial port january 2021" },
+
   { "regex": "/news/1-mbps-throughput-next-generation-l-band-terminals", "to": "/about/newsroom/press-releases/1-mbps-throughput-next-generation-l-band-terminals/", "comment": "initial port january 2021" },
   { "regex": "/news/2016-cso50-award-idgs-cso", "to": "/about/newsroom/press-releases/2016-cso50-award-idgs-cso/", "comment": "initial port january 2021" },
   { "regex": "/news/2016-great-britain-residential-broadband-perception-report", "to": "/about/newsroom/press-releases/2016-great-britain-residential-broadband-perception-report/", "comment": "initial port january 2021" },
@@ -795,7 +795,8 @@
   { "regex": "/sonet-replacement-encryption-solution", "to": "/events/forms/", "comment": "initial port january 2021" },
   { "regex": "/sonet-replacement-notional-architecture", "to": "/events/forms/", "comment": "initial port january 2021" },
   { "regex": "/strategic-solutions-webinar", "to": "/events/forms/", "comment": "initial port january 2021" },
-  { "regex": "/viasat-events-and-speaking-engagements", "to": "/events/forms/", "comment": "initial port january 2021" },  { "regex": "/events/gdpr-opt", "to": "/events/gdpr-opt/", "comment": "initial port january 2021" },
+  { "regex": "/viasat-events-and-speaking-engagements", "to": "/events/forms/", "comment": "initial port january 2021" },
+
   { "regex": "/products/residential-broadband", "to": "/satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/services/residential", "to": "/satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/client-extranet-customer-portal", "to": "/satellite-internet/welcome/", "comment": "initial port january 2021" },
