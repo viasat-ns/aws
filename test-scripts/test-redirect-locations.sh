@@ -8,13 +8,6 @@ helpFunction()
    exit 1 # Exit script after printing help
 }
 
-
-
-urlencode() {
-  python -c 'import urllib, sys; print urllib.quote(sys.argv[1], sys.argv[2])' \
-    "$1" "$urlencode_safe"
-}
-
 while getopts "f:t:d:" opt
 do
    case "$opt" in
@@ -45,7 +38,7 @@ TEST_COUNT=0
 SUCCESS=0
 ERRORS=0
 
-mkdir output
+mkdir -p output
 
 NOW=$(date +"%m-%d-%Y-%H-%M-%S")
 ERROR_OUTPUT_JSON_FILE="./output/test-redirect-locations-errors-$NOW.json"
