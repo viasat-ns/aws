@@ -102,23 +102,24 @@ exports.handler = (event, context, callback) => {
         return callback(null, redirect_ns); 
         
     }
-    
+
     console.log("URL (87): " + url);
 
     //path.extname returns an empty string when there's no extension.
     //if there is an extension on this request, continue without doing anything!
-    if(extension && extension.length > 0){
+    if(extension && extension.length > 0 && (extension != '.pdf' && extension != '.ico')){
         console.log( "Callback (92): " + url);
         return callback(null, request);
     }
-    
+
     console.log("URL (96): " + url);
 
     //check for redirect definition
     var startTime = performance.now();
 
     for (let redirect of redirects) {
-        if( url.search( (redirect.regex) ) >= 0 ) {
+        var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
+        if( url.search( regexpObj ) >= 0 ) {
 
             var endTime = performance.now();
 

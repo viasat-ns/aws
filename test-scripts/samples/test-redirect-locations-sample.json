@@ -1,0 +1,8 @@
+[
+  { "regex": "/files/arizonapng", "to": "/", "comment": "initial port january 2021" },
+  { "regex": "/files/eclypt-chart-web4xpng", "to": "/", "comment": "initial port january 2021" },
+  { "regex": "/files/ricepng", "to": "/", "comment": "initial port january 2021" },
+  { "regex": "/news/accelenet®-software-based-wan-optimizer-breaks-more-new-ground", "to": "/about/newsroom/press-releases/accelenet®-software-based-wan-optimizer-breaks-more-new-ground/", "comment": "initial port january 2021" },
+  { "regex": "/news/exede-internet-celebrates-america’s-space-dominance-first-national-tv-spot", "to": "/about/newsroom/press-releases/exede-internet-celebrates-america’s-space-dominance-first-national-tv-spot/", "comment": "initial port january 2021" },
+  { "regex": "/sites/default/files/media/documents/secure_communications_anywhere_anytime_ww_014_web.pdf", "to": "/content/dam/us-site/government/documents/1240026_AUSA_2020_eBook_008_web.pdf", "comment": "added per nichole  20210201" }
+]
