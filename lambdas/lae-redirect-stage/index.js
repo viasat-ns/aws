@@ -110,7 +110,7 @@ exports.handler = (event, context, callback) => {
 
     //path.extname returns an empty string when there's no extension.
     //if there is an extension on this request, continue without doing anything!
-    if(extension && extension.length > 0 && (extension != '.pdf' && extension != '.ico')){
+    if(extension && extension.length > 0){
         console.log( "Callback (92): " + url);
         return callback(null, request);
     }

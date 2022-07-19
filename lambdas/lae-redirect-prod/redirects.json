@@ -717,7 +717,7 @@
   { "regex": "/technologies/fec-forward-error-correction", "to": "/enterprise-and-mobility/space-and-networking-technology/asics-and-ip-cores/fec-forward-error-correction/", "comment": "initial port january 2021" },
   { "regex": "/technologies/rf-signal-environment-generation", "to": "/enterprise-and-mobility/space-and-networking-technology/asics-and-ip-cores/rf-signal-environment-generation/", "comment": "initial port january 2021" },
   { "regex": "/industries-applications/isr", "to": "/enterprise-and-mobility/space-and-networking-technology/ground-antennas/isr/", "comment": "initial port january 2021" },
-  { "regex": "/contact", "to": "/contact/", "comment": "initial port january 2021" },
+
   { "regex": "/contact-us", "to": "/contact/", "comment": "initial port january 2021" },
   { "regex": "/online-inquiry-form", "to": "/contact/", "comment": "initial port january 2021" },
   { "regex": "/talk-our-team", "to": "/contact/", "comment": "initial port january 2021" },
@@ -801,11 +801,11 @@
   { "regex": "/client-extranet-customer-portal", "to": "/satellite-internet/welcome/", "comment": "initial port january 2021" },
   { "regex": "/wildblue", "to": "/satellite-internet/wildblue/", "comment": "initial port january 2021" },
 
-  { "regex": "/legal/legal-statements", "to": "/legal/legal-statements/", "comment": "initial port january 2021" },
+
   { "regex": "/contact/locations", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/files/locations-washington-dc-map-b-002png", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/offices/geo-test", "to": "/locations/", "comment": "initial port january 2021" },
-  { "regex": "/locations", "to": "/locations/", "comment": "initial port january 2021" },
+
   { "regex": "/offices", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/product-finder", "to": "/products/", "comment": "initial port january 2021" },
   { "regex": "/systems-products", "to": "/products/", "comment": "initial port january 2021" },
@@ -878,7 +878,7 @@
   { "regex": "/viasat-patent-program", "to": "/quality-certifications/viasat-patent-program/", "comment": "initial port january 2021" },
   { "regex": "/about/policies-certifications/patents", "to": "/quality-certifications/list-of-patents/", "comment": "initial port january 2021" },
   { "regex": "/patents", "to": "/quality-certifications/list-of-patents/", "comment": "per nichole 20210120" },
-  { "regex": "/site-map", "to": "/site-map/", "comment": "initial port january 2021" },
+
   { "regex": "/services/nomadic-satellite-services", "to": "/space-innovation/satellite-fleet/global-satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/products/high-capacity-satellites", "to": "/space-innovation/satellite-fleet/ka-sat/", "comment": "initial port january 2021" },
   { "regex": "/viasat-1-launch", "to": "/space-innovation/satellite-fleet/viasat-1/", "comment": "initial port january 2021" },
