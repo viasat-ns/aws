@@ -73,7 +73,7 @@
   { "regex": "/topic/networking-tactical-radios-data-controllers", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
   { "regex": "/topic/uhf-satcom", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
   { "regex": "/topic/wi-fi-hotspot-management", "to": "/about/newsroom/press-releases/", "comment": "initial port january 2021" },
-  { "regex": "/about/newsroom/press-releases/11-million-orders-for-joint-ip-modem-products-and-upgrades", "to": "/about/newsroom/press-releases/11-million-orders-for-joint-ip-modem-products-and-upgrades/", "comment": "initial port january 2021" },
+
   { "regex": "/news/1-mbps-throughput-next-generation-l-band-terminals", "to": "/about/newsroom/press-releases/1-mbps-throughput-next-generation-l-band-terminals/", "comment": "initial port january 2021" },
   { "regex": "/news/2016-cso50-award-idgs-cso", "to": "/about/newsroom/press-releases/2016-cso50-award-idgs-cso/", "comment": "initial port january 2021" },
   { "regex": "/news/2016-great-britain-residential-broadband-perception-report", "to": "/about/newsroom/press-releases/2016-great-britain-residential-broadband-perception-report/", "comment": "initial port january 2021" },
@@ -717,7 +717,7 @@
   { "regex": "/technologies/fec-forward-error-correction", "to": "/enterprise-and-mobility/space-and-networking-technology/asics-and-ip-cores/fec-forward-error-correction/", "comment": "initial port january 2021" },
   { "regex": "/technologies/rf-signal-environment-generation", "to": "/enterprise-and-mobility/space-and-networking-technology/asics-and-ip-cores/rf-signal-environment-generation/", "comment": "initial port january 2021" },
   { "regex": "/industries-applications/isr", "to": "/enterprise-and-mobility/space-and-networking-technology/ground-antennas/isr/", "comment": "initial port january 2021" },
-  { "regex": "/contact", "to": "/contact/", "comment": "initial port january 2021" },
+
   { "regex": "/contact-us", "to": "/contact/", "comment": "initial port january 2021" },
   { "regex": "/online-inquiry-form", "to": "/contact/", "comment": "initial port january 2021" },
   { "regex": "/talk-our-team", "to": "/contact/", "comment": "initial port january 2021" },
@@ -795,17 +795,18 @@
   { "regex": "/sonet-replacement-encryption-solution", "to": "/events/forms/", "comment": "initial port january 2021" },
   { "regex": "/sonet-replacement-notional-architecture", "to": "/events/forms/", "comment": "initial port january 2021" },
   { "regex": "/strategic-solutions-webinar", "to": "/events/forms/", "comment": "initial port january 2021" },
-  { "regex": "/viasat-events-and-speaking-engagements", "to": "/events/forms/", "comment": "initial port january 2021" },  { "regex": "/events/gdpr-opt", "to": "/events/gdpr-opt/", "comment": "initial port january 2021" },
+  { "regex": "/viasat-events-and-speaking-engagements", "to": "/events/forms/", "comment": "initial port january 2021" },
+
   { "regex": "/products/residential-broadband", "to": "/satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/services/residential", "to": "/satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/client-extranet-customer-portal", "to": "/satellite-internet/welcome/", "comment": "initial port january 2021" },
   { "regex": "/wildblue", "to": "/satellite-internet/wildblue/", "comment": "initial port january 2021" },
 
-  { "regex": "/legal/legal-statements", "to": "/legal/legal-statements/", "comment": "initial port january 2021" },
+
   { "regex": "/contact/locations", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/files/locations-washington-dc-map-b-002png", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/offices/geo-test", "to": "/locations/", "comment": "initial port january 2021" },
-  { "regex": "/locations", "to": "/locations/", "comment": "initial port january 2021" },
+
   { "regex": "/offices", "to": "/locations/", "comment": "initial port january 2021" },
   { "regex": "/product-finder", "to": "/products/", "comment": "initial port january 2021" },
   { "regex": "/systems-products", "to": "/products/", "comment": "initial port january 2021" },
@@ -878,7 +879,7 @@
   { "regex": "/viasat-patent-program", "to": "/quality-certifications/viasat-patent-program/", "comment": "initial port january 2021" },
   { "regex": "/about/policies-certifications/patents", "to": "/quality-certifications/list-of-patents/", "comment": "initial port january 2021" },
   { "regex": "/patents", "to": "/quality-certifications/list-of-patents/", "comment": "per nichole 20210120" },
-  { "regex": "/site-map", "to": "/site-map/", "comment": "initial port january 2021" },
+
   { "regex": "/services/nomadic-satellite-services", "to": "/space-innovation/satellite-fleet/global-satellite-internet/", "comment": "initial port january 2021" },
   { "regex": "/products/high-capacity-satellites", "to": "/space-innovation/satellite-fleet/ka-sat/", "comment": "initial port january 2021" },
   { "regex": "/viasat-1-launch", "to": "/space-innovation/satellite-fleet/viasat-1/", "comment": "initial port january 2021" },
@@ -901,13 +902,13 @@
   { "regex": "/batsd-3", "to": "https://go.viasat.com/gs-link16-pm-mkto2103.html?utm_source=Shephard&utm_medium=Print&utm_campaign=NGTDL_Ad_Campaign_FY21&utm_content=See-the-Battlespace", "comment": "defense url fix 20210114" },
   { "regex": "/batsd-2", "to": "https://go.viasat.com/gs-link16-pm-mkto2103.html?utm_source=SIGNAL&utm_medium=Print&utm_campaign=NGTDL_Ad_Campaign_FY21&utm_content=See-the-Battlespace", "comment": "defense url fix 20210114" },
   { "regex": "/batsd-1", "to": "https://go.viasat.com/gs-link16-pm-mkto2103.html?utm_source=Army_Aviation&utm_medium=Print&utm_campaign=NGTDL_Ad_Campaign_FY21&utm_content=See-the-Battlespace", "comment": "defense url fix 20210114" },
- 
+
   { "regex": "/signal", "to": "https://go.viasat.com/gs-ngtdl-ppc-july19.html?utm_source=SIGNAL&utm_medium=Print&utm_campaign=NGTDL_Ad_Campaign_FY21&utm_content=Sponsored_Editorial", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next-adm", "to": "https://go.viasat.com/gs-fiveeyes-aus.html?utm_source=Australian_Defence_Magazine&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=End-to-End_Comms", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next-adr", "to": "https://go.viasat.com/gs-fiveeyes-aus.html?utm_source=Australian_Naval_Review&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=End-to-End_Comms", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next-pk", "to": "https://go.viasat.com/gs-fiveeyes-aus.html?utm_source=Australian_Peacekeeper&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=End-to-End_Comms", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next2", "to": "https://go.viasat.com/gs-fiveeyes-uk.html?utm_source=BATTLESPACE&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=Whats_Next", "comment": "defense url fix 20210114" },
- 
+
   { "regex": "/whats-next7", "to": "https://go.viasat.com/gs-fiveeyes-can.html?utm_source=Canadian_Defence_Review&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=End-to-End_Comms", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next-ncia", "to": "https://go.viasat.com/gs-fiveeyes-uk.html?utm_source=NCIA_NITECH&utm_medium=Print&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=Whats_Next", "comment": "defense url fix 20210114" },
   { "regex": "/whats-next4", "to": "https://go.viasat.com/gs-fiveeyes-international.html?utm_source=Shephard&utm_medium=Display&utm_campaign=GS_Five_Eyes_Ad_Campaign_FY21&utm_content=Whats_Next", "comment": "defense url fix 20210114" },
@@ -927,7 +928,7 @@
 
   { "regex": "/stt", "to": "/products/terminals-and-radios/small-tactical-terminals/", "comment": "added per nichole 20210114" },
   { "regex": "/mojo", "to": "/products/terminals-and-radios/tactical-gateway/", "comment": "added per nichole 20210114" },
- 
+
   { "regex": "/routing-guide", "to": "/supplier-information/routing-guide/", "comment": "added per nichole 20210114" },
   { "regex": "/legal-statements", "to": "/legal/legal-statements/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/privacy", "to": "/privacy-policy/", "comment": "added per nichole spreadsheet 20210115" },
@@ -1546,7 +1547,7 @@
   { "regex": "/node/2916", "to": "/defense/tactical-communications/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/2914", "to": "/products/terminals-and-radios/ka-band-terminals/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/2912", "to": "/defense/satcom/", "comment": "added per nichole spreadsheet 20210115" },
- 
+
   { "regex": "/node/2897", "to": "/customer-service/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/2887", "to": "/defense/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/2885", "to": "/products/terminals-and-radios/enerlinks/", "comment": "added per nichole spreadsheet 20210115" },
@@ -2641,7 +2642,7 @@
   { "regex": "/ecs", "to": "/products/software-and-services/enhanced-cybersecurity-services/", "comment": "new request per kristen 20210226" },
   { "regex": "/satcom-adm", "to": "/defense/satcom/", "comment": "new request per kristen 20210312" },
   { "regex": "/infosec", "to": "/defense/cybersecurity-data-protection/", "comment": "new request per kristen 20210312" },
- 
+
   { "regex": "/enterprise-and-mobility/enterprise/cybersecurity", "to": "/defense/cybersecurity-data-protection/", "comment": "new request per kristen 20210312" },
   { "regex": "/link-16-accessories", "to": "/products/software-and-services/link-16-accessories/", "comment": "new request per kristen 20210312" },
   { "regex": "/encryption", "to": "/defense/cybersecurity-data-protection/", "comment": "new request per kristen 20210312" },
