@@ -122,33 +122,26 @@ exports.handler = (event, context, callback) => {
 
     for (let redirect of redirects) {
         var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
-        url = url.replace( "/.\\" + extension, "" );
-        var urlCheck = url.search(regexpObj) >= 0;
-        var extCheck = true;
-        if(redirect.ext && redirect.ext.length > 0 && extension != ("." + redirect.ext)) {
-            extCheck = false;
-        }
-        if (urlCheck && extCheck) {
+        if( url.search( regexpObj ) >= 0 ) {
 
-                var endTime = performance.now();
+            var endTime = performance.now();
 
-                const redirect_cb = {
-                    status: '301',
-                    statusDescription: 'Moved Permanently',
-                    headers: {
-                        "x-viasat-fwd": [{
-                            key: 'X-Viasat-FWD',
-                            value: "redirect-lookup",
-                        }],
-                        location: [{
-                            key: 'Location',
-                            value: redirect.to,
-                        }],
-                    },
-                };
-                console.log("301 (120): " + url);
-                return callback(null, redirect_cb);
-            }
+            const redirect_cb = {
+                status: '301',
+                statusDescription: 'Moved Permanently',
+                headers: {
+                    "x-viasat-fwd": [{
+                        key: 'X-Viasat-FWD',
+                        value: "redirect-lookup",
+                    }],
+                    location: [{
+                        key: 'Location',
+                        value: redirect.to,
+                    }],
+                },
+            };
+            console.log( "301 (120): " + url);
+            return callback(null, redirect_cb);
         }
     }
     var endTime = performance.now();

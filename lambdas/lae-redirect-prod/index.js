@@ -119,13 +119,7 @@ exports.handler = (event, context, callback) => {
 
     for (let redirect of redirects) {
         var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
-        url = url.replace( "/.\\" + extension, "" );
-        var urlCheck = url.search(regexpObj) >= 0;
-        var extCheck = true;
-        if(redirect.ext && redirect.ext.length > 0 && extension != ("." + redirect.ext)) {
-            extCheck = false;
-        }
-        if (urlCheck && extCheck) {
+        if( url.search( regexpObj ) >= 0 ) {
 
             var endTime = performance.now();
 
