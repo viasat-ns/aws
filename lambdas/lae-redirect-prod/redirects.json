@@ -2726,5 +2726,7 @@
   { "regex": "/qa", "to": "/en-qa/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "/es", "to": "/es-es/", "comment": "Adam WEBCON-4264 20220503" },
   { "regex": "/en-mx", "to": "/es-mx/", "comment": "WEBCON-3081 20210908" },
-  { "regex": "/choice", "to": "/satellite-internet/?cid=RAD_US_2009_8B2CWJDNW3", "comment": "Adam WEBCON-4193 20220714" }
+  { "regex": "/choice", "to": "/satellite-internet/?cid=RAD_US_2009_8B2CWJDNW3", "comment": "Adam WEBCON-4193 20220714" },
+  { "regex": "/savebig", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2021_ASY681GUJL", "comment": "Adam WEBCON-4475 20220722" },
+  { "regex": "/savenow", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2022_HURAFAPS49", "comment": "Adam WEBCON-4475 20220722" }
 ]     
