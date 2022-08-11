@@ -2741,7 +2741,7 @@
   { "regex": "/defense/cybersecurity-data-protection", "to": "/defense/solutions/cybersecurity-data-protection/", "comment": "Nathan WEBCON-4408 20220811" },
   { "regex": "/defense/tactical-data-links", "to": "/defense/solutions/tactical-communications/", "comment": "Nathan WEBCON-4408 20220811" },
   { "regex": "/enterprise-and-mobility/enterprise/managed-wifi", "to": "/defense/solutions/managed-wi-fi/", "comment": "Nathan WEBCON-4408 20220811" },
-  { "regex": "enterprise-and-mobility/enterprise/managed-wifi/gowifi-navy", "to": "/defense/solutions/managed-wi-fi/gowifi-navy/", "comment": "Nathan WEBCON-4408 20220811" },
+  { "regex": "/enterprise-and-mobility/enterprise/managed-wifi/gowifi-navy", "to": "/defense/solutions/managed-wi-fi/gowifi-navy/", "comment": "Nathan WEBCON-4408 20220811" },
   { "regex": "/defense/satcom/terminals", "to": "/defense/solutions/satcom/terminals", "comment": "Nathan WEBCON-4408 20220811" },
   { "regex": "/defense/satcom/modems-and-waveforms", "to": "/defense/solutions/modems-and-waveforms", "comment": "Nathan WEBCON-4408 20220811" },
   { "regex": "/defense/satcom/services", "to": "/defense/solutions/satcom/services", "comment": "Nathan WEBCON-4408 20220811" },
