@@ -2,6 +2,7 @@
 const path = require('path');
 const { performance } = require('perf_hooks');
 const redirects = require('./redirects.json');
+const migrations = require('./aem-content-migrations.json');
 
 exports.handler = (event, context, callback) => {
     //get request object
@@ -35,7 +36,6 @@ exports.handler = (event, context, callback) => {
 
     console.log("URL (36): " + url);
 
-
     if( hostname == "energy-dev.web.viasat.com" ) {
         const redirect_cb = {
             status: '301',
@@ -55,7 +55,6 @@ exports.handler = (event, context, callback) => {
         return callback(null, redirect_cb);
     }
 
-
     if( hostname !== "dev.web.viasat.com" ) {
         const redirect_cb = {
             status: '301',
@@ -74,7 +73,6 @@ exports.handler = (event, context, callback) => {
         console.log( "301 (53): " + url);
         return callback(null, redirect_cb);
     }
-
 
     //we need to determine if this request has an extension.
     const extension = path.extname(url);
@@ -117,9 +115,43 @@ exports.handler = (event, context, callback) => {
 
     console.log("URL (96): " + url);
 
-    //check for redirect definition
     var startTime = performance.now();
 
+    //check for migration definition
+    for (let migration of migrations) {
+        var regexpObj = new RegExp('^' + migration.regex + '/?$', 'i');
+        var sourceMatches = url.match( regexpObj );
+
+        var target = migration.to;
+
+        if ( sourceMatches != null && sourceMatches.length >= 1 ) {
+
+            var endTime = performance.now();
+
+            for (var i = 1; i < sourceMatches.length; i++) {
+                target = target.replace('$' + i, sourceMatches[i]);
+            }
+
+            const redirect_cb = {
+                status: '301',
+                statusDescription: 'Moved Permanently',
+                headers: {
+                    "x-viasat-fwd": [{
+                        key: 'X-Viasat-FWD',
+                        value: "migration-lookup",
+                    }],
+                    location: [{
+                        key: 'Location',
+                        value: target,
+                    }],
+                },
+            };
+            console.log( "301 (152): " + target);
+            return callback(null, redirect_cb);
+        }
+    }
+
+    //check for redirect definition
     for (let redirect of redirects) {
         var regexpObj = new RegExp('^' + redirect.regex + '/?$', "i");
         if( url.search( regexpObj ) >= 0 ) {
@@ -144,6 +176,7 @@ exports.handler = (event, context, callback) => {
             return callback(null, redirect_cb);
         }
     }
+
     var endTime = performance.now();
     console.log(`Time file ${endTime - startTime} milliseconds`);
 
