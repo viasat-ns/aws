@@ -2749,5 +2749,6 @@
   { "regex": "/defense/cybersecurity-data-protection/space-encryption", "to": "/defense/solutions/cybersecurity-data-protection/space-encryption/", "comment": "Nathan WEBCON-4408 20220815" },
   { "regex": "/defense/cybersecurity-data-protection/edge-encryption", "to": "/defense/solutions/cybersecurity-data-protection/edge-encryption/", "comment": "Nathan WEBCON-4408 20220815" },
   { "regex": "/defense/cybersecurity-data-protection/services", "to": "/defense/solutions/cybersecurity-data-protection/services", "comment": "Nathan WEBCON-4408 20220815" },
-  { "regex": "/intelie", "to": "https://www.intelie.ai", "comment": "Adam WEBCON-4534 20220825" }
+  { "regex": "/intelie", "to": "https://www.intelie.ai", "comment": "Adam WEBCON-4534 20220825" },
+  { "regex": "/tribalconnect", "to": "/satellite-internet/tribal-connect", "comment": "Adam WEBCON-4494 20220826" }
 ]     
