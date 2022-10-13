@@ -2763,5 +2763,7 @@
   { "regex": "/about/corporate-social-responsibility/csr-report/environmental-responsibility", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
   { "regex": "/about/corporate-social-responsibility/csr-report/corporate-governance", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
   { "regex": "/about/corporate-social-responsibility/csr-report/2021-viasat-esg-report", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
-  { "regex": "/about/corporate-social-responsibility/csr-report/2021-viasat-csr-report", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" }
+  { "regex": "/about/corporate-social-responsibility/csr-report/2021-viasat-csr-report", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
+  { "regex": "/viasatstream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4683 20221013" },
+  { "regex": "/stream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4574 20221013" }
 ]
