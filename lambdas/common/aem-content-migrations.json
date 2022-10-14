@@ -7,5 +7,6 @@
   { "regex": "(/about/newsroom/press-resources)", "to": "https://news.viasat.com/newsroom", "comment": "WEBCON-4437 20220812" },
   { "regex": "(/pt-br/sobre-nos/sala-de-imprensa)", "to": "https://news.viasat.com/pt-br/comunicado-de-impresna", "comment": "WEBCON-4610 20220914" },
   { "regex": "(/es-mx/acerca-de-nosotros/sala-de-prensa.*)", "to": "https://news.viasat.com/es-mx/blog", "comment": "WEBCON-4437 20220812" },
-  { "regex": "(/pt-br/sobre-nos/sala-de-imprensa.*)", "to": "https://news.viasat.com$1", "comment": "WEBCON-4437 20220812" }
+  { "regex": "(/pt-br/sobre-nos/sala-de-imprensa.*)", "to": "https://news.viasat.com$1", "comment": "WEBCON-4437 20220812" },
+  { "regex": "(/en-mx/.*)", "to": "/es-mx", "comment": "WEBCON-4591 20221011" }
 ]
