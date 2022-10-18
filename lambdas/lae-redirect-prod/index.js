@@ -216,7 +216,7 @@ exports.handler = (event, context, callback) => {
         headers: {
             location: [{
                 key: 'Location',
-                value: new_url,
+                value: 'https://www.viasat.com' + new_url,
             }],
             "x-viasat-fwd": [{
                 key: 'X-Viasat-FWD',
