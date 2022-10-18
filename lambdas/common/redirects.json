@@ -890,7 +890,7 @@
   { "regex": "/viasat-2-infographic-launch-facts", "to": "/space-innovation/satellite-fleet/viasat-2/", "comment": "initial port january 2021" },
   { "regex": "/viasat-2-orbital-operations", "to": "/space-innovation/satellite-fleet/viasat-2/", "comment": "initial port january 2021" },
   { "regex": "/viasat-2-service-infographic", "to": "/space-innovation/satellite-fleet/viasat-2/", "comment": "initial port january 2021" },
-  { "regex": "/systems-products/satellite-systems", "to": "/space-innovation/space-systems/", "comment": "initial port january 2021" },
+
   { "regex": "/already-viasat-supplier", "to": "/supplier-information/", "comment": "initial port january 2021" },
   { "regex": "/small-business-supplier-registration", "to": "/supplier-information/become-a-supplier/small-business/", "comment": "initial port january 2021" },
   { "regex": "/small-business-suppliers", "to": "/supplier-information/become-a-supplier/small-business/", "comment": "initial port january 2021" },
@@ -2770,5 +2770,6 @@
   { "regex": "/about/corporate-social-responsibility/csr-report/2021-viasat-esg-report", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
   { "regex": "/about/corporate-social-responsibility/csr-report/2021-viasat-csr-report", "to": "/about/what-we-believe/csr-report/", "comment": "Adam WEBCON-4574 20220915" },
   { "regex": "/viasatstream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4683 20221013" },
-  { "regex": "/stream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4574 20221013" }
+  { "regex": "/stream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4574 20221013" },
+  { "regex": "/space-innovation", "to": "/space-innovation/space-systems/", "comment": "Nithya WEBCON-4721 20221018" }
 ]
