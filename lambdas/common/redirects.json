@@ -2773,5 +2773,9 @@
   { "regex": "/stream", "to": "/satellite-internet/additional-services/viasat-stream", "comment": "NS WEBCON-4574 20221013" },
   { "regex": "/space-innovation", "to": "/space-innovation/space-systems/", "comment": "Nithya WEBCON-4721 20221018" },
   { "regex": "/dollargeneral", "to": "/satellite-internet/offers/dollar-general?cid=AFL_US_2119_VF0F13VECM", "comment": "Adam WEBCON-4760 20221026" },
-  { "regex": "/promosave", "to": "/satellite-internet/offers/save-300?cid=TVN_US_2122_UCO3QO1NEA", "comment": "Nathan WEBCON-4778 20221104" }
+  { "regex": "/promosave", "to": "/satellite-internet/offers/save-300?cid=TVN_US_2122_UCO3QO1NEA", "comment": "Nathan WEBCON-4778 20221104" },
+  { "regex": "/holiday1", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2125_E7E39WGZTD", "comment": "Nathan WEBCON-4823 20221121" },
+  { "regex": "/holiday2", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2126_JMNON2WHOE", "comment": "Nathan WEBCON-4823 20221121" },
+  { "regex": "/holiday3", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2127_3BVBUAFA0H", "comment": "Nathan WEBCON-4823 20221121" },
+  { "regex": "/holiday4", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2128_C12R613Y9C", "comment": "Nathan WEBCON-4823 20221121" }
 ]
