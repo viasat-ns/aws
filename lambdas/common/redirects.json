@@ -2680,7 +2680,7 @@
   { "regex": "/usmc", "to": "http://go.viasat.com/usmc?cid=PRT_US_285_NK8OQJUCD3", "comment": "Kristen WEBCON-3190 20210804" },
   { "regex": "/armybrochure", "to": "/content/dam/us-site/government/documents/1369121_TX_Overview_Brochure_015.pdf", "comment": "Kristen WEBCON-3216 20210813" },
   { "regex": "/esg", "to": "/about/what-we-believe/csr-report/", "comment": "Kristen WEBCON-3227 20210816" },
-  { "regex": "/caf", "to": "/satellite-internet/plans/carrier-services/?cid=DML_US_1940_4IUMP7PP1R", "comment": "Todd WEBCON-4065 20220331" },
+  { "regex": "/caf", "to": "/satellite-internet/plans/carrier-services/?cid=DML_US_2134_C7H917YNKY", "comment": "Adam WEBCON-4874 20221209" },
   { "regex": "/ebb", "to": "/satellite-internet/additional-services/emergency-broadband-benefit/", "comment": "Ashley WEBCON-3251 20210830" },
   { "regex": "/wifigateway", "to": "https://help.viasat.com/s/article/WiFi-Gateway-3-UserGuide", "comment": "Ashley WEBCON-3246 20210902" },
   { "regex": "/networkpoweradapter", "to": "https://help.viasat.com/s/article/Network-Power-Adapter-UserGuide", "comment": "Ashley WEBCON-3246 20210902" },
