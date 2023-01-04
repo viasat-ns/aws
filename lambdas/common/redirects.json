@@ -2786,6 +2786,16 @@
   { "regex": "/data-links/mids-jtrs", "to": "/defense/tactical-data-links/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/3736", "to": "/defense/tactical-data-links/link-16/", "comment": "added per nichole spreadsheet 20210115" },
 
+  { "regex": "/products/software-and-services/link-16-accessories", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/software-and-services/link-16-software-tools", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/software-and-services/link-16-training", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/bats-d", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/bats-e", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/small-tactical-terminals", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/mids-jtrs", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/mids-lvt", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+  { "regex": "/products/terminals-and-radios/bva", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
+
   { "regex": "/defense/tactical-data-links", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230103" },
   { "regex": "/defense/tactical-data-links/link-16", "to": "/defense/solutions/", "comment": "Trevor WEBCON-4953 20230103" },
   { "regex": "/defense/solutions/tactical-data-links/link-16", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230103" },
