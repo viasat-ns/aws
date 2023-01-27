@@ -2749,6 +2749,7 @@
   { "regex": "/holiday2", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2126_JMNON2WHOE", "comment": "Nathan WEBCON-4823 20221121" },
   { "regex": "/holiday3", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2127_3BVBUAFA0H", "comment": "Nathan WEBCON-4823 20221121" },
   { "regex": "/holiday4", "to": "/satellite-internet/offers/save-300/?cid=TVN_US_2128_C12R613Y9C", "comment": "Nathan WEBCON-4823 20221121" },
+  { "regex": "/amerigas", "to": "/satellite-internet/offers/amerigas/?cid=AFL_US_2147_JK7GX3TDT3", "comment": "Adam WEBCON-5015 20230127" },
 
   { "regex": "/next-generation-tactical-data-links-demo-request", "to": "/defense/tactical-data-links/", "comment": "initial port january 2021" },
   { "regex": "/systems-products/tactical-data-links", "to": "/defense/tactical-data-links/", "comment": "initial port january 2021" },
