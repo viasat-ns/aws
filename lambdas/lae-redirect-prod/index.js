@@ -132,6 +132,18 @@ exports.handler = (event, context, callback) => {
                 target = target.replace('$' + i, sourceMatches[i]);
             }
 
+            var targetQueryString = '';
+
+            if (typeof request.querystring != undefined && 'queryParamsRegex' in migration) {
+                var querystringRegexObj = new RegExp('^' + migration.queryParamsRegex + '$', 'i');
+                var sourceQueryStringMatches = request.querystring.match(querystringRegexObj);
+
+                if ( sourceQueryStringMatches != null && sourceQueryStringMatches.length >= 1 ) {
+                    targetQueryString = sourceQueryStringMatches[1];
+                    target = target + '?' + targetQueryString;
+                }
+            }
+
             const redirect_cb = {
                 status: '301',
                 statusDescription: 'Moved Permanently',
