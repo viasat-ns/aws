@@ -2786,6 +2786,7 @@
   { "regex": "/data-links-us", "to": "/defense/tactical-data-links/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/data-links/mids-jtrs", "to": "/defense/tactical-data-links/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/3736", "to": "/defense/tactical-data-links/link-16/", "comment": "added per nichole spreadsheet 20210115" },
+  { "regex": "/agpack", "to": "https://buy.viasat.com/en-US/r/?cid=AFL_US_2180_QAP6TDOOXJ", "comment": "Adam WEBCON-5026 20230127" },
 
   { "regex": "/products/software-and-services/link-16-accessories", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
   { "regex": "/products/software-and-services/link-16-software-tools", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
