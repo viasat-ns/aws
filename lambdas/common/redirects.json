@@ -926,7 +926,7 @@
 
   { "regex": "/routing-guide", "to": "/supplier-information/routing-guide/", "comment": "added per nichole 20210114" },
   { "regex": "/legal-statements", "to": "/legal/legal-statements/", "comment": "added per nichole spreadsheet 20210115" },
-  { "regex": "/privacy", "to": "/privacy-policy/", "comment": "added per nichole spreadsheet 20210115" },
+  { "regex": "/privacy-policy", "to": "/privacy/privacy-policy", "comment": "WEBCON-5084 Adam 20230214" },
   { "regex": "/press-releases", "to": "/about/newsroom/press-releases/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/executive-team", "to": "/about/leadership-team/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/voice", "to": "https://help.viasat.com/s/article/Adding-Viasat-Voice", "comment": "added per nichole spreadsheet 20210115" },
