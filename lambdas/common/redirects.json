@@ -2804,5 +2804,8 @@
   { "regex": "/defense/solutions/tactical-data-links/link-16", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230103" },
   { "regex": "/defense/solutions/tactical-data-links", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230103" },
   { "regex": "/defense/tactical-communications/", "to": "/defense/solutions/tactical-networking", "comment": "Adam WEBCON-4985 20230117" },
-  { "regex": "/defense/solutions/tactical-communications", "to": "/defense/solutions/tactical-networking", "comment": "Adam WEBCON-4985 20230117" }
+  { "regex": "/defense/solutions/tactical-communications", "to": "/defense/solutions/tactical-networking", "comment": "Adam WEBCON-4985 20230117" },
+  { "regex": "/affordable", "to": "/satellite-internet/best-offer/?cid=DML_US_2197_JY9IIN9UHV", "comment": "Nathan WEBCON-5093 20230215" },
+  { "regex": "/moredata", "to": "/satellite-internet/best-offer/?cid=DML_US_2198_V52AGPT0FY", "comment": "Nathan WEBCON-5093 20230215" },
+  { "regex": "/highspeed", "to": "/satellite-internet/best-offer/?cid=DML_US_2199_R8H8WN8BY7", "comment": "Nathan WEBCON-5093 20230215" }
 ]
