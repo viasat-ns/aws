@@ -2788,6 +2788,7 @@
   { "regex": "/data-links/mids-jtrs", "to": "/defense/tactical-data-links/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/node/3736", "to": "/defense/tactical-data-links/link-16/", "comment": "added per nichole spreadsheet 20210115" },
   { "regex": "/agpack", "to": "/satellite-internet/partners/ag-pack/?cid=AFL_US_2180_QAP6TDOOXJ", "comment": "Adam WEBCON-5052 20230201" },
+  { "regex": "/about/who-we-are/mark-dankberg", "to": "/about/who-we-are/viasat-leadership/mark-dankberg/", "comment": "Adam WEBCON-5079 202302016" },
 
   { "regex": "/products/software-and-services/link-16-accessories", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
   { "regex": "/products/software-and-services/link-16-software-tools", "to": "/defense/solutions", "comment": "Trevor WEBCON-4953 20230104" },
